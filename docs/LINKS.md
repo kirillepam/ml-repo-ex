@@ -4,6 +4,7 @@
 - python venv: https://www.dataquest.io/blog/a-complete-guide-to-python-virtual-environments/
 - python vscode setup: https://code.visualstudio.com/docs/python/python-tutorial
 - python debug vscode: https://code.visualstudio.com/docs/python/debugging
+- python type-annotation: https://blog.logrocket.com/understanding-type-annotation-python/
 - pre-commit:
     - https://pre-commit.com/
     - https://medium.com/@anton-k./how-to-set-up-pre-commit-hooks-with-python-2b512290436
@@ -16,3 +17,4 @@
 - hydra: https://hydra.cc/docs/intro/
 - gin: https://github.com/google/gin-config
 - custom dataclasses configs: https://alexandra-zaharia.github.io/posts/python-configuration-and-dataclasses/ (i prefer to use yaml instead of ini)
+- cli dev: https://click.palletsprojects.com/en/8.1.x/

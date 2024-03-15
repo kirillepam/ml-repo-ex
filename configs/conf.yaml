@@ -1,0 +1,4 @@
+solver: lbfgs
+max_iter: 1000
+multi_class: auto
+random_state: 88828

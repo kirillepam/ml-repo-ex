@@ -6,6 +6,10 @@ conda env create -f envs/environment-local-dev.yml
 conda activate dev-ml-repo-ex
 pre-commit install
 dvc init
+dvc add data/data-v1.txt
+dvc status
+dvc checkout
+python -m ml_repo_ex.train
 ```
 
 # Testing

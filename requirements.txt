@@ -1,2 +1,5 @@
 pandas==2.0.3
 mlflow
+scikit-learn
+click
+pyyaml
