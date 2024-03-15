@@ -38,9 +38,11 @@ filterwarnings = [
     'ignore:.*the imp module is deprecated in favour of importlib.*:DeprecationWarning',
     'ignore:.*is a deprecated alias for the builtin.*:DeprecationWarning'
 ]
-
+testpaths = [
+    "./tests/"
+]
 
 [tool.coverage.run]
 source = [
-    "./startwith",
+    "./ml_repo_ex",
 ]

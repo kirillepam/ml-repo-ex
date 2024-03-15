@@ -10,6 +10,7 @@ pre-commit install
 # Testing
 1. pytest
     ```bash
+    pytest -v .
     coverage run -m pytest -v
     coverage report
     coverage html
