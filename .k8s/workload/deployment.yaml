@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deploy-toy-model
+  namespace: nsp-toy-model
+  labels:
+    app: app-toy-model
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app-toy-model
+  template:
+    metadata:
+      labels:
+        app: app-toy-model
+    spec:
+      containers:
+      - name: app-toy-model
+        image: toy-model:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 5001

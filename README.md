@@ -5,6 +5,7 @@ conda env remove -n dev-ml-repo-ex
 conda env create -f envs/environment-local-dev.yml
 conda activate dev-ml-repo-ex
 pre-commit install
+dvc init
 ```
 
 # Testing

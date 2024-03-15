@@ -1,0 +1,21 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-toy-model
+  namespace: nsp-toy-model
+  annotations:
+    nginx.ingress.kubernetes.io/use-regex: "true"
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: webserver.io
+    http:
+      paths:
+      - path: /api/v1/service/toy(/|$)(.*)
+        pathType: Prefix
+        backend:
+          service:
+            name: svc-toy-model
+            port:
+              number: 80

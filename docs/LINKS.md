@@ -7,3 +7,12 @@
 - pre-commit:
     - https://pre-commit.com/
     - https://medium.com/@anton-k./how-to-set-up-pre-commit-hooks-with-python-2b512290436
+- azure:
+    - https://learn.microsoft.com/en-us/collections/g7dnb4wopozqxp#edit-section-ko0na4y34d0ryn
+    - https://learn.microsoft.com/en-us/training/paths/evolve-your-devops-practices/
+- k8s: https://www.edx.org/learn/kubernetes/the-linux-foundation-introduction-to-kubernetes
+- mlflow: https://mlflow.org/docs/latest/index.html
+- dvc: https://dvc.org/doc/install/macos
+- hydra: https://hydra.cc/docs/intro/
+- gin: https://github.com/google/gin-config
+- custom dataclasses configs: https://alexandra-zaharia.github.io/posts/python-configuration-and-dataclasses/ (i prefer to use yaml instead of ini)
