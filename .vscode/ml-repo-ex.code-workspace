@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "../"
+		}
+	],
+	"settings": {
+		"terminal.integrated.profiles.osx": {
+			"rosetta": {
+				"path": "arch",
+				"args": [
+					"-x86_64",
+					"zsh",
+					"-l"
+				],
+				"overrideName": true
+			}
+		},
+		"[python]": {
+			"editor.defaultFormatter": "ms-python.black-formatter"
+		},
+		"python.analysis.exclude": [
+			"notebooks/*"
+		],
+		"python.languageServer": "Pylance",
+	}
+}

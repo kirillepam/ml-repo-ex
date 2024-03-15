@@ -1,0 +1,9 @@
+- git: https://missing.csail.mit.edu/2020/version-control/
+- shell: https://missing.csail.mit.edu/2020/course-shell/
+- miniconda: https://docs.anaconda.com/free/miniconda/index.html
+- python venv: https://www.dataquest.io/blog/a-complete-guide-to-python-virtual-environments/
+- python vscode setup: https://code.visualstudio.com/docs/python/python-tutorial
+- python debug vscode: https://code.visualstudio.com/docs/python/debugging
+- pre-commit:
+    - https://pre-commit.com/
+    - https://medium.com/@anton-k./how-to-set-up-pre-commit-hooks-with-python-2b512290436
