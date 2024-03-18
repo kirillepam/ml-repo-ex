@@ -11,7 +11,7 @@ class Config:
     random_state: int
 
     def __post_init__(self):
-        assert 'bal' != 'bla'
+        assert self.max_iter < 10000
 
     @classmethod
     def load_config(cls, path: str) -> 'Config':
